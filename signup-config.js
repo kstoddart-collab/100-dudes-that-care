@@ -1,2 +1,2 @@
-// Set true only after the recipient mailbox is activated and test delivery is verified.
-window.SIGNUP_ENABLED = false;
+// Recipient activated and setup test accepted on November 22, 2026.
+window.SIGNUP_ENABLED = true;

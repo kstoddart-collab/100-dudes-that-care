@@ -23,7 +23,7 @@ Changes committed to the selected publishing branch automatically update the sit
 
 ## Before launch
 
-Confirm chapter location, meeting dates, organizer contact, nonprofit eligibility, voting policy and quarterly commitment. Contact email remains the reserved placeholder hello@100dudes.example. No payment service is connected. Signup delivery is configured through FormSubmit and is gated until activation and delivery checks pass. Nonprofit nominations still download local drafts only.
+Confirm chapter location, meeting dates, organizer contact, nonprofit eligibility, voting policy and quarterly commitment. Contact email remains the reserved placeholder hello@100dudes.example. No payment service is connected. Signup delivery is enabled through FormSubmit. The primary recipient was activated and the setup test was accepted on November 22, 2026. Nonprofit nominations still download local drafts only.
 
 The $10,000 quarterly and $40,000 annual figures are illustrative goals based on 100 participants giving $100 quarterly, not historical results.
 
@@ -45,9 +45,9 @@ The Give button and recipient details update automatically after GitHub Pages pu
 
 ## Signup delivery
 
-The Count me in form posts to FormSubmit, with kenny@ironmindadvisors.com as the main recipient and louisz@cdzsales.com copied. The signup includes name, email, optional phone and city/neighborhood, and required permission for membership/gathering follow-up. It does not charge or authorize payments.
+The Count me in form posts to FormSubmit, with kstoddart@mac.com as the main recipient and louisz@cdzsales.com copied. The signup includes name, email, optional phone and city/neighborhood, and required permission for membership/gathering follow-up. It does not charge or authorize payments.
 
-The mailbox owner must activate FormSubmit before registration is enabled. `signup-config.js` controls the public signup gate. Keep it false until activation and test delivery are verified; then set `window.SIGNUP_ENABLED = true`.
+The mailbox owner must activate FormSubmit before registration is enabled. `signup-config.js` controls the public signup gate. It is currently enabled with `window.SIGNUP_ENABLED = true`. Set it false to temporarily close registration.
 
 The form retains FormSubmit’s default CAPTCHA and includes a honeypot. Successful form submission returns to `thanks.html`. Nomination forms still download drafts. Signup processing and the provider’s stated 30-day submission retention are disclosed in the privacy dialog. Organizer copies are delivered to email.
 
