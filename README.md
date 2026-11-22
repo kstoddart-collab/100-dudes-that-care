@@ -31,3 +31,14 @@ All branding, copy, illustration and code were created for this project. The giv
 
 GitHub documentation: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 Custom domain documentation: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
+
+## Update the quarterly nonprofit
+
+After each member vote, edit `giving-config.js` in GitHub and commit to `main`:
+
+- `recipientName`: chosen nonprofit's name.
+- `donationUrl`: verified full HTTPS URL for the nonprofit's own donation page.
+- `givingPeriod`: optional quarter or meeting label, such as Q1 2027.
+- `description`: optional short explanation of the nonprofit's work.
+
+The Give button and recipient details update automatically after GitHub Pages publishes. Leave `donationUrl` empty to show the recipient-not-announced message. Both a recipient name and a valid HTTPS donation URL are required to activate the external link. Members pay the charity directly; this website does not collect, hold, or forward donations. The charity handles payment and receipts. Do not use an IronMind Advisors payment link.
